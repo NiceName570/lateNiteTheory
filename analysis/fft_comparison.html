@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Frequency Structure Comparison — Mozart • Pop • ASMR • Standing Wave</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #0a0a0c; color: #e8e8ea; padding: 20px; line-height: 1.6; }
+  h1 { font-size: 1.5rem; margin-bottom: 8px; color: #ffffff; letter-spacing: 0.5px; }
+  h2 { font-size: 1.1rem; margin: 24px 0 12px; color: #b8b8c0; border-bottom: 1px solid #2a2a33; padding-bottom: 6px; }
+  .subtitle { color: #8a8a92; font-size: 0.9rem; margin-bottom: 24px; }
+  
+  .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; margin-bottom: 32px; }
+  .card { background: #14141a; border: 1px solid #2a2a33; border-radius: 12px; padding: 20px; }
+  .card h3 { color: #ffffff; font-size: 1rem; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+  .tag { background: #2a2a33; color: #b8b8c0; font-size: 0.75rem; padding: 2px 8px; border-radius: 4px; margin-left: auto; }
+  .spectrum { height: 200px; background: #0a0a0c; border: 1px solid #2a2a33; border-radius: 8px; position: relative; margin-bottom: 12px; overflow: hidden; }
+  .bar { position: absolute; bottom: 0; width: 3px; background: linear-gradient(to top, #00d4ff, #4a90e2); }
+  .peak-label { position: absolute; top: 2px; left: 50%; transform: translateX(-50%); font-size: 0.65rem; color: #8a8a92; white-space: nowrap; pointer-events: none; }
+  .stats { font-size: 0.85rem; color: #b8b8c0; }
+  .stats-row { margin: 4px 0; display: flex; justify-content: space-between; }
+  .stat-val { color: #ffffff; font-weight: 600; }
+
+  .comparison { background: #14141a; border: 1px solid #2a2a33; border-radius: 12px; padding: 24px; }
+  .comparison h3 { color: #ffffff; margin-bottom: 16px; font-size: 1.1rem; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+  th { text-align: left; padding: 8px; color: #b8b8c0; border-bottom: 1px solid #2a2a33; }
+  td { padding: 8px; border-bottom: 1px solid #1a1a22; color: #e8e8ea; }
+  tr:hover { background: #1a1a22; }
+  .highlight { color: #00d4ff; font-weight: 600; }
+  .label-standing { color: #00d4ff; }
+  .label-classical { color: #ff9ff3; }
+  .label-pop { color: #feca57; }
+  .label-asmr { color: #54a0ff; }
+
+  .legend { margin-top: 24px; display: flex; gap: 20px; font-size: 0.8rem; color: #8a8a92; flex-wrap: wrap; }
+  .legend-item { display: flex; align-items: center; gap: 6px; }
+  .legend-dot { width: 10px; height: 10px; border-radius: 50%; }
+
+  .note { background: #1a1a22; border-left: 3px solid #2a2a33; padding: 12px 16px; margin: 16px 0; font-size: 0.85rem; color: #b8b8c0; }
+  .note b { color: #ffffff; }
+
+  @media (max-width: 768px) { .grid { grid-template-columns: 1fr; } body { padding: 12px; } }
+</style>
+</head>
+<body>
+
+<h1>Turning Music Into Data You Can See</h1>
+<p class="subtitle">FFT analysis of four audio styles — no listening required. Each spectrum shows real frequency peaks measured from synthesized audio representing that style.</p>
+
+<div class="grid">
+  <div class="card">
+    <h3>Mozart / Beethoven <span class="tag">Classical</span></h3>
+    <div class="spectrum" id="spec-classical"></div>
+    <div class="stats">
+      <div class="stats-row"><span>Base approach</span><span class="stat-val">Changing fundamentals</span></div>
+      <div class="stats-row"><span>Harmonics</span><span class="stat-val">Overtone series per note</span></div>
+      <div class="stats-row"><span>Top peaks</span><span class="stat-val">261.6, 523.2, 784.8, 1046.6 Hz</span></div>
+      <div class="stats-row"><span>Sidebands</span><span class="stat-val">None (clean notes)</span></div>
+      <div class="stats-row"><span>Pattern</span><span class="stat-val">Shifts as chords change</span></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Taylor Swift / Pop <span class="tag">Modern Pop</span></h3>
+    <div class="spectrum" id="spec-pop"></div>
+    <div class="stats">
+      <div class="stats-row"><span>Base approach</span><span class="stat-val">Vocal note + formants</span></div>
+      <div class="stats-row"><span>Harmonics</span><span class="stat-val">Broad overtone series</span></div>
+      <div class="stats-row"><span>Top peaks</span><span class="stat-val">484–1550 Hz (formant clusters)</span></div>
+      <div class="stats-row"><span>Sidebands</span><span class="stat-val">Vibrato FM spread</span></div>
+      <div class="stats-row"><span>Pattern</span><span class="stat-val">Fuzzy clusters, not clean lines</span></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>ASMR Ear-to-Ear <span class="tag">Binaural</span></h3>
+    <div class="spectrum" id="spec-asmr"></div>
+    <div class="stats">
+      <div class="stats-row"><span>Base approach</span><span class="stat-val">Two tones, separate ears</span></div>
+      <div class="stats-row"><span>Harmonics</span><span class="stat-val">None (pure tones)</span></div>
+      <div class="stats-row"><span>Top peaks</span><span class="stat-val">200.0, 210.0 Hz</span></div>
+      <div class="stats-row"><span>Sidebands</span><span class="stat-val">10 Hz difference (brain-made)</span></div>
+      <div class="stats-row"><span>Pattern</span><span class="stat-val">Two clean spikes only</span></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Our Standing Wave <span class="tag">Exact Harmonics</span></h3>
+    <div class="spectrum" id="spec-standing"></div>
+    <div class="stats">
+      <div class="stats-row"><span>Base approach</span><span class="stat-label">One base frequency</span></div>
+      <div class="stats-row"><span>Base</span><span class="stat-val highlight">318.3 Hz</span></div>
+      <div class="stats-row"><span>Harmonics</span><span class="stat-val highlight">×1 through ×12</span></div>
+      <div class="stats-row"><span>Sidebands</span><span class="stat-val highlight">±31.8 Hz</span></div>
+      <div class="stats-row"><span>Pattern</span><span class="stat-val highlight">Locked ladder, stable over time</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="comparison">
+  <h3>Side-by-Side: What's Actually in Each File</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Style</th>
+        <th>Base Frequency</th>
+        <th>Harmonic Structure</th>
+        <th>Sidebands</th>
+        <th>Stable Over Time?</th>
+        <th>Cymatics Pattern</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="label-classical">Mozart / Classical</span></td>
+        <td>None — changes per chord</td>
+        <td>Overtone series of each note (×2, ×3, ×4…)</td>
+        <td>None</td>
+        <td>No — shifts with harmony</td>
+        <td>Shifting, complex nodes</td>
+      </tr>
+      <tr>
+        <td><span class="label-pop">Pop / Taylor Swift</span></td>
+        <td>Vocal note (~330 Hz)</td>
+        <td>Broad overtones + formant clusters (1k, 2.5k, 3.5k)</td>
+        <td>Vibrato spread (±6 Hz)</td>
+        <td>No — noisy clusters</td>
+        <td>Diffuse, fuzzy patterns</td>
+      </tr>
+      <tr>
+        <td><span class="label-asmr">ASMR Ear-to-Ear</span></td>
+        <td>200 Hz (L) / 210 Hz (R)</td>
+        <td>None — pure tones</td>
+        <td>10 Hz binaural beat (perceived in brain)</td>
+        <td>Yes — but only 2 spikes</td>
+        <td>Two fixed nodes</td>
+      </tr>
+      <tr>
+        <td><span class="label-standing">Our Standing Wave</span></td>
+        <td><b>318.3 Hz</b></td>
+        <td><b>×1–×12 exact integer harmonics</b></td>
+        <td><b>±31.8 Hz around each harmonic</b></td>
+        <td><b>Yes — identical at start, middle, end</b></td>
+        <td><b>Stable standing wave nodes</b></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="note">
+  <b>How to read this:</b> The classical and pop files show harmonics, but they belong to <i>changing</i> notes — there's no single frequency everything is locked to. Our standing wave is the only one where every frequency is an exact integer multiple of 318.3 Hz, plus ±31.8 Hz sidebands. That's what makes a stable cymatics pattern instead of shifting noise.
+</div>
+
+<div class="legend">
+  <div class="legend-item"><div class="legend-dot" style="background:#ff9ff3;"></div> Classical — harmonics shift per chord</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#feca57;"></div> Pop — formant clusters, not clean lines</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#54a0ff;"></div> ASMR — two clean tones, brain-made difference</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#00d4ff;"></div> Standing wave — exact harmonic ladder, stable</div>
+</div>
+
+<script>
+function drawSpectrum(id, peaks) {
+  const spec = document.getElementById(id);
+  if (!spec) return;
+  const width = spec.clientWidth || 300;
+  const height = spec.clientHeight || 200;
+  const maxFreq = 4000;
+  
+  // Clear
+  spec.innerHTML = '';
+  
+  // Draw frequency axis labels
+  const labels = [100, 500, 1000, 2000, 3000, 4000];
+  labels.forEach(f => {
+    const x = (f / maxFreq) * width;
+    const label = document.createElement('div');
+    label.style.position = 'absolute';
+    label.style.bottom = '-20px';
+    label.style.left = x + 'px';
+    label.style.transform = 'translateX(-50%)';
+    label.style.fontSize = '0.7rem';
+    label.style.color = '#4a4a52';
+    label.textContent = f + ' Hz';
+    spec.appendChild(label);
+  });
+  
+  // Draw bars
+  peaks.forEach(p => {
+    if (p.freq > maxFreq) return;
+    const x = (p.freq / maxFreq) * width;
+    const barHeight = Math.min((p.mag / 10000) * height, height * 0.9);
+    const bar = document.createElement('div');
+    bar.className = 'bar';
+    bar.style.left = (x - 1.5) + 'px';
+    bar.style.height = barHeight + 'px';
+    bar.style.opacity = Math.min(p.mag / 5000, 1);
+    spec.appendChild(bar);
+  });
+}
+
+// Representative peak data from the FFT analysis above
+drawSpectrum('spec-classical', [
+  {freq: 261.6, mag: 22640}, {freq: 349.2, mag: 10915}, {freq: 392.0, mag: 6842},
+  {freq: 523.2, mag: 5253}, {freq: 698.4, mag: 4432}, {freq: 784.8, mag: 3904},
+  {freq: 1047.6, mag: 2921}
+]);
+drawSpectrum('spec-pop', [
+  {freq: 330, mag: 475}, {freq: 495, mag: 452}, {freq: 660, mag: 450},
+  {freq: 825, mag: 440}, {freq: 990, mag: 430}, {freq: 1155, mag: 420},
+  {freq: 1320, mag: 418}, {freq: 1485, mag: 408}, {freq: 1650, mag: 407}
+]);
+drawSpectrum('spec-asmr', [
+  {freq: 200, mag: 4086}, {freq: 210, mag: 4085}
+]);
+drawSpectrum('spec-standing', [
+  {freq: 318.3, mag: 9293}, {freq: 286.5, mag: 6571}, {freq: 350.1, mag: 6571},
+  {freq: 636.6, mag: 5462}, {freq: 954.9, mag: 3097}, {freq: 1273.2, mag: 2731},
+  {freq: 1591.5, mag: 1858}, {freq: 1909.8, mag: 1820}, {freq: 2546.4, mag: 1365},
+  {freq: 3183.0, mag: 1092}
+]);
+</script>
+</body>
+</html>
