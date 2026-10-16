@@ -1,0 +1,163 @@
+{
+  "base": 318.3,
+  "sideband": 31.8,
+  "targets": [
+    286.5,
+    318.3,
+    350.1,
+    604.8,
+    636.6,
+    668.4,
+    923.1,
+    954.9,
+    986.7,
+    1241.4,
+    1273.2,
+    1305.0,
+    1559.7,
+    1591.5,
+    1623.3,
+    1878.0,
+    1909.8,
+    1941.6,
+    2196.3,
+    2228.1,
+    2259.9,
+    2514.6,
+    2546.4,
+    2578.2,
+    2832.9,
+    2864.7,
+    2896.5,
+    3151.2,
+    3183.0,
+    3214.8,
+    3469.5,
+    3501.3,
+    3533.1,
+    3787.8,
+    3819.6,
+    3851.4
+  ],
+  "results": [
+    {
+      "word": "shalom",
+      "lang": "Hebrew",
+      "meaning": "peace, wholeness",
+      "ipa": "\u0283\u0251lom",
+      "alignments": []
+    },
+    {
+      "word": "salam",
+      "lang": "Arabic",
+      "meaning": "peace, safety",
+      "ipa": "sala\u02d0m",
+      "alignments": []
+    },
+    {
+      "word": "heal",
+      "lang": "English",
+      "meaning": "to make healthy",
+      "ipa": "hi\u02d0l",
+      "alignments": [
+        {
+          "phoneme": "i\u02d0",
+          "freq": 270,
+          "target": 286.5,
+          "diff": 16.5
+        }
+      ]
+    },
+    {
+      "word": "holy",
+      "lang": "English",
+      "meaning": "whole, sacred",
+      "ipa": "ho\u028ali",
+      "alignments": [
+        {
+          "phoneme": "i",
+          "freq": 270,
+          "target": 286.5,
+          "diff": 16.5
+        }
+      ]
+    },
+    {
+      "word": "shanti",
+      "lang": "Sanskrit",
+      "meaning": "peace, tranquility",
+      "ipa": "\u0283\u0251nti",
+      "alignments": [
+        {
+          "phoneme": "i",
+          "freq": 270,
+          "target": 286.5,
+          "diff": 16.5
+        }
+      ]
+    },
+    {
+      "word": "shifa",
+      "lang": "Arabic",
+      "meaning": "healing, cure",
+      "ipa": "\u0283ifa\u02d0",
+      "alignments": [
+        {
+          "phoneme": "i",
+          "freq": 270,
+          "target": 286.5,
+          "diff": 16.5
+        }
+      ]
+    },
+    {
+      "word": "or",
+      "lang": "Hebrew",
+      "meaning": "light",
+      "ipa": "or",
+      "alignments": [
+        {
+          "phoneme": "r",
+          "freq": 300,
+          "target": 286.5,
+          "diff": 13.5
+        }
+      ]
+    },
+    {
+      "word": "emet",
+      "lang": "Hebrew",
+      "meaning": "truth",
+      "ipa": "emet",
+      "alignments": []
+    },
+    {
+      "word": "chai",
+      "lang": "Hebrew",
+      "meaning": "life, living",
+      "ipa": "\u03c7ai",
+      "alignments": [
+        {
+          "phoneme": "i",
+          "freq": 270,
+          "target": 286.5,
+          "diff": 16.5
+        }
+      ]
+    },
+    {
+      "word": "rapha",
+      "lang": "Hebrew",
+      "meaning": "heal, cure",
+      "ipa": "rafa",
+      "alignments": [
+        {
+          "phoneme": "r",
+          "freq": 300,
+          "target": 286.5,
+          "diff": 13.5
+        }
+      ]
+    }
+  ]
+}

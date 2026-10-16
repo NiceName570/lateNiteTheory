@@ -1,0 +1,91 @@
+{
+  "base": 318.3,
+  "sideband": 31.8,
+  "tones": [
+    {
+      "file": "heal_i\u02d0_270Hz.wav",
+      "path": "C:/Users/crucial/Desktop/lateNiteTheory/analysis/word_tones\\heal_i\u02d0_270Hz.wav",
+      "word": "heal",
+      "phoneme": "i\u02d0",
+      "freq": 270,
+      "target": 286.5,
+      "diff": 16.5,
+      "meaning": "to make healthy",
+      "lang": "English",
+      "duration_s": 5.0
+    },
+    {
+      "file": "holy_i_270Hz.wav",
+      "path": "C:/Users/crucial/Desktop/lateNiteTheory/analysis/word_tones\\holy_i_270Hz.wav",
+      "word": "holy",
+      "phoneme": "i",
+      "freq": 270,
+      "target": 286.5,
+      "diff": 16.5,
+      "meaning": "whole, sacred",
+      "lang": "English",
+      "duration_s": 5.0
+    },
+    {
+      "file": "shanti_i_270Hz.wav",
+      "path": "C:/Users/crucial/Desktop/lateNiteTheory/analysis/word_tones\\shanti_i_270Hz.wav",
+      "word": "shanti",
+      "phoneme": "i",
+      "freq": 270,
+      "target": 286.5,
+      "diff": 16.5,
+      "meaning": "peace, tranquility",
+      "lang": "Sanskrit",
+      "duration_s": 5.0
+    },
+    {
+      "file": "shifa_i_270Hz.wav",
+      "path": "C:/Users/crucial/Desktop/lateNiteTheory/analysis/word_tones\\shifa_i_270Hz.wav",
+      "word": "shifa",
+      "phoneme": "i",
+      "freq": 270,
+      "target": 286.5,
+      "diff": 16.5,
+      "meaning": "healing, cure",
+      "lang": "Arabic",
+      "duration_s": 5.0
+    },
+    {
+      "file": "or_r_300Hz.wav",
+      "path": "C:/Users/crucial/Desktop/lateNiteTheory/analysis/word_tones\\or_r_300Hz.wav",
+      "word": "or",
+      "phoneme": "r",
+      "freq": 300,
+      "target": 286.5,
+      "diff": 13.5,
+      "meaning": "light",
+      "lang": "Hebrew",
+      "duration_s": 5.0
+    },
+    {
+      "file": "chai_i_270Hz.wav",
+      "path": "C:/Users/crucial/Desktop/lateNiteTheory/analysis/word_tones\\chai_i_270Hz.wav",
+      "word": "chai",
+      "phoneme": "i",
+      "freq": 270,
+      "target": 286.5,
+      "diff": 16.5,
+      "meaning": "life, living",
+      "lang": "Hebrew",
+      "duration_s": 5.0
+    },
+    {
+      "file": "rapha_r_300Hz.wav",
+      "path": "C:/Users/crucial/Desktop/lateNiteTheory/analysis/word_tones\\rapha_r_300Hz.wav",
+      "word": "rapha",
+      "phoneme": "r",
+      "freq": 300,
+      "target": 286.5,
+      "diff": 13.5,
+      "meaning": "heal, cure",
+      "lang": "Hebrew",
+      "duration_s": 5.0
+    }
+  ],
+  "combined_file": "healing_words_stack_combined.wav"
+}
