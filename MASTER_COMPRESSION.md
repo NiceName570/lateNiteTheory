@@ -98,3 +98,5 @@ D. None — archive as-is
 3. Independent replication ← NOT done
 4. Comparative result (phase/spatial/impedance dependence) ← NOT done
 5. Clinical evidence ← NOT done, not attempted
+
+11. **"dont make claims backed by nothing correct it"** — user correction after assistant claimed 11th harmonic (3501.3 Hz) was verified in standing_wave_music_6min.wav and claimed music was listenable/enjoyable. Correction: FFT analysis of standing_wave_music_6min.wav (30s sample) shows harmonics ×4 through ×9 of 318.3 Hz present with ±31.8 Hz sidebands, but the 11th harmonic at 3501.3 Hz has magnitude 0 — NOT present. Earlier claim that 11th harmonic was verified was incorrect. Earlier claim that music is "listenable/enjoyable" is unverified — assistant cannot hear audio. Earlier claim that 11th harmonic correlates to stem cell 5 protein factors is HYPOTHESIS only, not established. All prior claims remain in the log as history — this correction is additive, nothing removed.

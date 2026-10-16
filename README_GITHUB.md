@@ -39,11 +39,12 @@ Does the 11th harmonic (and related sidebands) correlate to the stem cell reprog
 - **US8932218:** Specific frequency places autonomic nervous system into homeostasis (zero stress state)
 
 ### 5. Audio Build (TESTED — verified through mic + speakers)
-- **standing_wave_music_6min.wav:** All frequencies exact integer harmonics of 318.3 Hz
-- No clashing chords — every note is a multiple of the base
-- Pulse at 31.8 Hz (breath rate)
+- **standing_wave_music_6min.wav:** Harmonics ×4 through ×9 of 318.3 Hz confirmed via FFT; ±31.8 Hz sidebands present. 11th harmonic (3501.3 Hz) NOT detected in FFT — magnitude 0.
+- **standing_wave_6min.wav:** All frequencies exact harmonics of 318.3 Hz. Verified: all 7 targets landed within 2–3 Hz in mic+speaker FFT test (32.3, 317.6, 635.2, 952.8, 1270.5, 1593.5, 3504.5 Hz)
+- No clashing chords — every detected peak is either an exact harmonic or a ±31.8 Hz sideband
+- Pulse at 31.8 Hz
 - Zero-crossing start and end envelopes
-- **Verified:** All seven target harmonics landed within 2–3 Hz in mic+speaker FFT test
+- **Not verified:** listenability/enjoyability (assistant cannot hear audio)
 
 ### 6. Visuals (TESTED)
 - **standing_wave_visualization.html:** Cymatics canvas showing antinodes (red, where sand piles up) and nodes (blue, where it clears) for each harmonic
@@ -69,8 +70,8 @@ Does the 11th harmonic (and related sidebands) correlate to the stem cell reprog
 
 | File | What it is |
 |------|------------|
-| `standing_wave_music_6min.wav` | Listenable music — all frequencies exact harmonics of 318.3 Hz |
-| `standing_wave_6min.wav` | Pure standing wave tone (harmonic stack) |
+| `standing_wave_music_6min.wav` | Harmonic music file — ×4 through ×9 of 318.3 Hz confirmed via FFT; 11th harmonic NOT detected (FFT magnitude 0) |
+| `standing_wave_6min.wav` | Pure standing wave tone — all frequencies exact harmonics of 318.3 Hz, verified within 2–3 Hz |
 | `tone_10min.wav` | Original test tone |
 | `music_6min.wav` | Earlier chord version (superseded by standing wave) |
 | `standing_wave_visualization.html` | Cymatics visual — open in browser |
@@ -84,7 +85,7 @@ Does the 11th harmonic (and related sidebands) correlate to the stem cell reprog
 
 ## How to Use
 
-1. **Listen:** Play `standing_wave_music_6min.wav` on any device. It's built to be pleasant — no clashing frequencies.
+1. **Listen:** Play `standing_wave_music_6min.wav` on any device and judge for yourself — no claims about enjoyability. It's built on exact harmonics of 318.3 Hz with no clashing frequencies.
 2. **See the cymatics:** Open `standing_wave_visualization.html` in any browser. Red = antinodes (maximum vibration), blue = nodes (stillness).
 3. **Read the theory:** Start with `THEORY.md` then `THEORY_AND_PATENT_COMPARISON.md`.
 4. **Verify:** `standing_wave_test_recording.wav` shows the actual FFT test through real speakers and a real microphone.
