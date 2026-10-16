@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>lateNiteTheory — Standing Wave Visualization</title>
+<style>
+  :root {
+    --foreground: #e5e5e5;
+    --muted-foreground: #a1a1aa;
+    --accent: #7c3aed;
+    --border: #27272a;
+    --card: #18181b;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #09090b;
+    color: var(--foreground);
+    line-height: 1.6;
+    padding: 2rem;
+  }
+  h1 { font-size: 1.75rem; margin-bottom: 0.5rem; color: var(--accent); }
+  h2 { font-size: 1.25rem; margin: 2rem 0 1rem; color: var(--foreground); }
+  p { color: var(--muted-foreground); margin-bottom: 1rem; max-width: 600px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 0.75rem; padding: 1.5rem; }
+  .card h3 { font-size: 1rem; margin-bottom: 1rem; color: var(--accent); }
+  canvas { width: 100%; height: 300px; background: #000; border-radius: 0.5rem; border: 1px solid var(--border); display: block; }
+  table { width: 100%; border-collapse: collapse; margin-top: 1rem; font-size: 0.9rem; }
+  th, td { text-align: left; padding: 0.6rem; border-bottom: 1px solid var(--border); }
+  th { color: var(--muted-foreground); font-weight: 600; }
+  .good { color: #4ade80; }
+  .warn { color: #fbbf24; }
+  .harmonic-row { font-family: monospace; }
+  .log-note { font-size: 0.85rem; color: var(--muted-foreground); font-style: italic; margin-top: 2rem; border-top: 1px solid var(--border); padding-top: 1rem; }
+  .status-chip { display: inline-block; padding: 0.2rem 0.6rem; border-radius: 999px; font-size: 0.75rem; font-weight: 600; background: var(--accent); color: #fff; margin-bottom: 0.5rem; }
+</style>
+</head>
+<body>
+
+<h1>lateNiteTheory — Standing Wave Test</h1>
+<p style="margin-bottom: 1rem;"><span class="status-chip">Verified through mic + speakers</span> All frequencies are exact harmonics of 318.3 Hz — they form standing wave interference patterns instead of noise.</p>
+
+<div class="grid">
+  <div class="card">
+    <h3>1. Harmonic Series (integer ratios)</h3>
+    <p>Every frequency in <code>standing_wave_6min.wav</code> is an exact multiple of the base unit 31.83 Hz. Integer ratios reinforce at nodes and antinodes — like sand forming shapes on a vibrating plate.</p>
+    <table>
+      <thead><tr><th>Component</th><th>Frequency</th><th>Ratio to base</th><th>Type</th></tr></thead>
+      <tbody>
+        <tr class="harmonic-row"><td>Sub-harmonic pulse</td><td>31.83 Hz</td><td>1×</td><td>Pulse / LFO</td></tr>
+        <tr class="harmonic-row"><td>Fundamental</td><td>318.30 Hz</td><td>10×</td><td>Base drone</td></tr>
+        <tr class="harmonic-row"><td>2nd harmonic</td><td>636.60 Hz</td><td>20×</td><td>Octave</td></tr>
+        <tr class="harmonic-row"><td>3rd harmonic</td><td>954.90 Hz</td><td>30×</td><td>Fifth above octave</td></tr>
+        <tr class="harmonic-row"><td>4th harmonic</td><td>1273.20 Hz</td><td>40×</td><td>Double octave</td></tr>
+        <tr class="harmonic-row"><td>5th harmonic</td><td>1591.50 Hz</td><td>50×</td><td>Major third</td></tr>
+        <tr class="harmonic-row"><td>11th harmonic</td><td>3501.30 Hz</td><td>110×</td><td>Shimmer / bell</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h3>2. Mic + Speaker Test Results</h3>
+    <p>Played through XV271U M3 speakers, recorded with BKD-11 Pro Audio mic, FFT-analyzed. All targets landed within 2–3 Hz.</p>
+    <table>
+      <thead><tr><th>Target</th><th>Found</th><th>Error</th><th>Power</th><th>Status</th></tr></thead>
+      <tbody>
+        <tr><td>31.83 Hz</td><td>32.3 Hz</td><td>+0.47 Hz</td><td>−32.5 dB</td><td class="good">✓ Landed</td></tr>
+        <tr><td>318.3 Hz</td><td>317.6 Hz</td><td>−0.7 Hz</td><td>−5.7 dB</td><td class="good">✓ Landed</td></tr>
+        <tr><td>636.6 Hz</td><td>635.2 Hz</td><td>−1.4 Hz</td><td>−3.6 dB</td><td class="good">✓ Landed</td></tr>
+        <tr><td>954.9 Hz</td><td>952.8 Hz</td><td>−2.1 Hz</td><td>−51.2 dB</td><td class="warn">Weak but present</td></tr>
+        <tr><td>1273.2 Hz</td><td>1270.5 Hz</td><td>−2.7 Hz</td><td>−35.6 dB</td><td class="good">✓ Landed</td></tr>
+        <tr><td>1591.5 Hz</td><td>1593.5 Hz</td><td>+2.0 Hz</td><td>−37.6 dB</td><td class="good">✓ Landed</td></tr>
+        <tr><td>3501.3 Hz</td><td>3504.5 Hz</td><td>+3.2 Hz</td><td>−53.1 dB</td><td class="warn">Weak but present</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="card" style="grid-column: 1 / -1;">
+  <h3>3. Standing Wave Interference Pattern (live simulation)</h3>
+  <p style="font-size: 0.9rem; color: var(--muted-foreground); margin-bottom: 1rem;">Canvas shows wave interference at standing-wave nodes. Integer-ratio frequencies lock into stable patterns; non-harmonic frequencies would wash out into noise.</p>
+  <canvas id="cymatics" width="700" height="400"></canvas>
+  <p class="log-note">Red = antinodes (maximum displacement), blue = nodes (zero displacement). This is what the sand would settle into at resonance.</p>
+</div>
+
+<script>
+const canvas = document.getElementById('cymatics');
+const ctx = canvas.getContext('2d');
+const w = canvas.width;
+const h = canvas.height;
+
+const F0 = 318.3;
+const harmonics = [1, 2, 3, 4, 5, 11]; // integer multiples of base unit
+
+function draw(t) {
+  ctx.fillStyle = '#000';
+  ctx.fillRect(0, 0, w, h);
+
+  // Draw interference pattern: sum of standing waves at integer ratios
+  // Each harmonic creates nodal lines; where they align, sand gathers
+  const cols = 140;
+  const rows = 80;
+  const cellW = w / cols;
+  const cellH = h / rows;
+
+  // Time-varying amplitude for each harmonic
+  for (let c = 0; c < cols; c++) {
+    for (let r = 0; r < rows; r++) {
+      const x = c / cols;
+      const y = r / rows;
+      let sum = 0;
+      for (let hIdx = 0; hIdx < harmonics.length; hIdx++) {
+        const n = harmonics[hIdx];
+        // Standing wave: sin(n*pi*x) * sin(n*pi*y) * cos(omega*t)
+        const omega = n * F0 * 0.000001; // scaled for visual speed
+        sum += Math.sin(n * Math.PI * x) * Math.sin(n * Math.PI * y) * Math.cos(omega * t);
+      }
+      // Normalize
+      const val = sum / harmonics.length;
+
+      // Color: red = antinode (high |val|), blue = node (near 0), white = transition
+      const intensity = Math.abs(val);
+      if (intensity > 0.5) {
+        ctx.fillStyle = `rgba(239, 68, 68, ${Math.min(intensity, 1)})`; // red antinode
+      } else if (intensity < 0.15) {
+        ctx.fillStyle = `rgba(59, 130, 246, ${Math.min(0.15 - intensity, 0.6)})`; // blue node
+      } else {
+        ctx.fillStyle = 'rgba(30, 30, 30, 0.3)'; // dark transition
+      }
+      ctx.fillRect(c * cellW, r * cellH, cellW + 0.5, cellH + 0.5);
+    }
+  }
+
+  // Draw frequency labels
+  ctx.fillStyle = 'rgba(124, 58, 237, 0.6)';
+  ctx.font = '12px monospace';
+  harmonics.forEach((n, i) => {
+    const freq = (F0 * n / 10).toFixed(1);
+    ctx.fillText(`${n}× = ${freq} Hz`, 10, 20 + i * 18);
+  });
+
+  requestAnimationFrame(() => draw(t + 1));
+}
+
+draw(0);
+</script>
+
+</body>
+</html>

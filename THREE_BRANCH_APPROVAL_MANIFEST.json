@@ -1,0 +1,43 @@
+{
+  "established": "2026-09-29",
+  "status": "3_of_3_approved_within_declared_boundaries",
+  "branches": [
+    {
+      "branch": "pre_crane_no4",
+      "batch": "simulations/pre_crane/runs/20260929-no4-behavioral-v1",
+      "verification": "PASS_5_of_5",
+      "approved_claim": "normalized No. 4 behavioral simulation",
+      "rejected_claim": "historical No. 4 circuit replica",
+      "verification_report_sha256": "B6F9DAD89854091A9BD539D401906381433A6647399CF20DC12F9DE58903C28E"
+    },
+    {
+      "branch": "crane_az58",
+      "batch": "simulations/az58/gates/20260929-az58-rf-final-gate-v1",
+      "verification": "PASS_3_of_3",
+      "approved_claim": "bounded AZ-58 corrected-topology RF sensitivity simulation",
+      "rejected_claims": [
+        "complete historical replica",
+        "audio or modulator validation",
+        "historical cable identification",
+        "biological mechanism or efficacy"
+      ],
+      "frequency_spread_hz": 57900.51726600714,
+      "verification_report_sha256": "F62E17AFA07EF0FAED5EBC5C8A8822EE8D0A6C20EC47933442A62D06CE0618D4"
+    },
+    {
+      "branch": "bare_holland_om2",
+      "batch": "simulations/bare/runs/20260929-om2-external-v3",
+      "verification": "PASS_5_of_5",
+      "approved_claim": "bounded OM2 external-system sensitivity simulation",
+      "rejected_claims": [
+        "OM2 internal circuit replica",
+        "actual tuner or cable identification",
+        "Phanotron V-I reconstruction",
+        "biological mechanism or efficacy"
+      ],
+      "verification_report_sha256": "92F44EE32E03D9200F757A2F269E12A358193B01F4304C06D12369A892B51281"
+    }
+  ],
+  "invariant": "branch values remain separate; later work supplies observables only",
+  "next_stage": "comparison-led low-voltage measurement requirements; no physical build is authorized by this manifest"
+}
