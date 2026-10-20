@@ -1,0 +1,313 @@
+{
+  "base": 318.3,
+  "sideband": 31.8,
+  "targets": [
+    286.5,
+    318.3,
+    350.1,
+    604.8,
+    636.6,
+    668.4,
+    923.1,
+    954.9,
+    986.7,
+    1241.4,
+    1273.2,
+    1305.0,
+    1559.7,
+    1591.5,
+    1623.3,
+    1878.0,
+    1909.8,
+    1941.6,
+    2196.3,
+    2228.1,
+    2259.9,
+    2514.6,
+    2546.4,
+    2578.2,
+    2832.9,
+    2864.7,
+    2896.5,
+    3151.2,
+    3183.0,
+    3214.8,
+    3469.5,
+    3501.3,
+    3533.1,
+    3787.8,
+    3819.6,
+    3851.4
+  ],
+  "hebrew": [
+    {
+      "word": "ahavah_love",
+      "val": 13,
+      "alignments": []
+    },
+    {
+      "word": "echad_one",
+      "val": 13,
+      "alignments": []
+    },
+    {
+      "word": "chai_life",
+      "val": 18,
+      "alignments": [
+        {
+          "val": 18,
+          "hz": 288.0,
+          "target": 286.5,
+          "diff": 1.5
+        }
+      ]
+    },
+    {
+      "word": "YHVH_divine_name",
+      "val": 26,
+      "alignments": []
+    },
+    {
+      "word": "shalom_peace",
+      "val": 376,
+      "alignments": []
+    },
+    {
+      "word": "emet_truth",
+      "val": 441,
+      "alignments": [
+        {
+          "val": 441,
+          "hz": 3528.0,
+          "target": 3533.1,
+          "diff": 5.1
+        }
+      ]
+    },
+    {
+      "word": "chesed_lovingkindness",
+      "val": 72,
+      "alignments": [
+        {
+          "val": 72,
+          "hz": 288.0,
+          "target": 286.5,
+          "diff": 1.5
+        }
+      ]
+    },
+    {
+      "word": "lev_heart",
+      "val": 32,
+      "alignments": []
+    },
+    {
+      "word": "hallel_praise",
+      "val": 65,
+      "alignments": []
+    },
+    {
+      "word": "neshamah_soul",
+      "val": 395,
+      "alignments": [
+        {
+          "val": 395,
+          "hz": 1580.0,
+          "target": 1591.5,
+          "diff": 11.5
+        },
+        {
+          "val": 395,
+          "hz": 3160.0,
+          "target": 3151.2,
+          "diff": 8.8
+        }
+      ]
+    },
+    {
+      "word": "kadosh_holy",
+      "val": 410,
+      "alignments": [
+        {
+          "val": 410,
+          "hz": 1640.0,
+          "target": 1623.3,
+          "diff": 16.7
+        }
+      ]
+    },
+    {
+      "word": "ner_light_candle",
+      "val": 250,
+      "alignments": [
+        {
+          "val": 250,
+          "hz": 1000.0,
+          "target": 986.7,
+          "diff": 13.3
+        }
+      ]
+    },
+    {
+      "word": "brachah_blessing",
+      "val": 227,
+      "alignments": [
+        {
+          "val": 227,
+          "hz": 908.0,
+          "target": 923.1,
+          "diff": 15.1
+        }
+      ]
+    },
+    {
+      "word": "ruach_spirit",
+      "val": 214,
+      "alignments": []
+    },
+    {
+      "word": "or_light",
+      "val": 207,
+      "alignments": []
+    },
+    {
+      "word": "rapha_heal",
+      "val": 281,
+      "alignments": [
+        {
+          "val": 281,
+          "hz": 281.0,
+          "target": 286.5,
+          "diff": 5.5
+        },
+        {
+          "val": 281,
+          "hz": 2248.0,
+          "target": 2259.9,
+          "diff": 11.9
+        }
+      ]
+    },
+    {
+      "word": "nachash_serpent",
+      "val": 358,
+      "alignments": [
+        {
+          "val": 358,
+          "hz": 358.0,
+          "target": 350.1,
+          "diff": 7.9
+        },
+        {
+          "val": 358,
+          "hz": 2864.0,
+          "target": 2864.7,
+          "diff": 0.7
+        }
+      ]
+    },
+    {
+      "word": "mashiach_messiah",
+      "val": 358,
+      "alignments": [
+        {
+          "val": 358,
+          "hz": 358.0,
+          "target": 350.1,
+          "diff": 7.9
+        },
+        {
+          "val": 358,
+          "hz": 2864.0,
+          "target": 2864.7,
+          "diff": 0.7
+        }
+      ]
+    },
+    {
+      "word": "Elohim_God",
+      "val": 86,
+      "alignments": [
+        {
+          "val": 86,
+          "hz": 344.0,
+          "target": 350.1,
+          "diff": 6.1
+        },
+        {
+          "val": 86,
+          "hz": 688.0,
+          "target": 668.4,
+          "diff": 19.6
+        }
+      ]
+    },
+    {
+      "word": "teva_nature",
+      "val": 86,
+      "alignments": [
+        {
+          "val": 86,
+          "hz": 344.0,
+          "target": 350.1,
+          "diff": 6.1
+        },
+        {
+          "val": 86,
+          "hz": 688.0,
+          "target": 668.4,
+          "diff": 19.6
+        }
+      ]
+    }
+  ],
+  "greek": [
+    {
+      "word": "Iesous_Jesus",
+      "val": 888,
+      "alignments": [
+        {
+          "val": 888,
+          "hz": 3552.0,
+          "target": 3533.1,
+          "diff": 18.9
+        }
+      ]
+    },
+    {
+      "word": "Christos_Christ",
+      "val": 1480,
+      "alignments": [
+        {
+          "val": 1480,
+          "hz": 370.0,
+          "target": 350.1,
+          "diff": 19.9
+        }
+      ]
+    },
+    {
+      "word": "Kurios_Lord",
+      "val": 800,
+      "alignments": [
+        {
+          "val": 800,
+          "hz": 1600.0,
+          "target": 1591.5,
+          "diff": 8.5
+        },
+        {
+          "val": 800,
+          "hz": 3200.0,
+          "target": 3214.8,
+          "diff": 14.8
+        }
+      ]
+    },
+    {
+      "word": "Logos_Word",
+      "val": 373,
+      "alignments": []
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "file": "standing_wave_base_11th_intersection.wav",
+  "path": "C:/Users/crucial/Desktop/lateNiteTheory/analysis\\standing_wave_base_11th_intersection.wav",
+  "base_hz": 318.3,
+  "h11_hz": 3501.3,
+  "ratio": 11,
+  "sample_rate": 44100,
+  "duration_s": 10.0,
+  "fft_base_found": 318.3,
+  "fft_base_off_hz": 0.0,
+  "fft_h11_found": 3501.3,
+  "fft_h11_off_hz": 0.0,
+  "description": "Standing wave intersection: base (318.3 Hz) + 11th harmonic (3501.3 Hz), exact harmonics, zero-crossing envelopes"
+}

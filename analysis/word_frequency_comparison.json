@@ -1,0 +1,1849 @@
+{
+  "base": 318.3,
+  "sideband": 31.8,
+  "targets": [
+    286.5,
+    318.3,
+    350.1,
+    604.8,
+    636.6,
+    668.4,
+    923.1,
+    954.9,
+    986.7,
+    1241.4,
+    1273.2,
+    1305.0,
+    1559.7,
+    1591.5,
+    1623.3,
+    1878.0,
+    1909.8,
+    1941.6,
+    2196.3,
+    2228.1,
+    2259.9,
+    2514.6,
+    2546.4,
+    2578.2,
+    2832.9,
+    2864.7,
+    2896.5,
+    3151.2,
+    3183.0,
+    3214.8,
+    3469.5,
+    3501.3,
+    3533.1,
+    3787.8,
+    3819.6,
+    3851.4
+  ],
+  "positive": [
+    {
+      "word": "love",
+      "gematria": {
+        "English Ordinal": 54,
+        "English Simple": 18,
+        "English Reverse": 54,
+        "Jewish (English)": 495,
+        "Sumerian": 324
+      },
+      "formants": [
+        570,
+        840,
+        2410,
+        530,
+        1850,
+        2500
+      ],
+      "alignments": [
+        {
+          "method": "gematria_English Ordinal",
+          "value": 54,
+          "hz": 3456.0,
+          "target": 3469.5,
+          "diff": 13.5,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Simple",
+          "value": 18,
+          "hz": 288.0,
+          "target": 286.5,
+          "diff": 1.5,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Reverse",
+          "value": 54,
+          "hz": 3456.0,
+          "target": 3469.5,
+          "diff": 13.5,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Jewish (English)",
+          "value": 495,
+          "hz": 990.0,
+          "target": 986.7,
+          "diff": 3.3,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Sumerian",
+          "value": 324,
+          "hz": 324.0,
+          "target": 318.3,
+          "diff": 5.7,
+          "scaled": false
+        },
+        {
+          "method": "gematria_Sumerian",
+          "value": 324,
+          "hz": 648.0,
+          "target": 636.6,
+          "diff": 11.4,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Sumerian",
+          "value": 324,
+          "hz": 1296.0,
+          "target": 1305.0,
+          "diff": 9.0,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Sumerian",
+          "value": 324,
+          "hz": 2592.0,
+          "target": 2578.2,
+          "diff": 13.8,
+          "scaled": true
+        },
+        {
+          "method": "vowel_formant",
+          "value": 2500,
+          "hz": 2500,
+          "target": 2514.6,
+          "diff": 14.6,
+          "scaled": false
+        }
+      ]
+    },
+    {
+      "word": "peace",
+      "gematria": {
+        "English Ordinal": 30,
+        "English Simple": 21,
+        "English Reverse": 105,
+        "Jewish (English)": 84,
+        "Sumerian": 180
+      },
+      "formants": [
+        530,
+        1850,
+        2500,
+        730,
+        1090,
+        2440,
+        530,
+        1850,
+        2500
+      ],
+      "alignments": [
+        {
+          "method": "gematria_English Ordinal",
+          "value": 30,
+          "hz": 960.0,
+          "target": 954.9,
+          "diff": 5.1,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Ordinal",
+          "value": 30,
+          "hz": 1920.0,
+          "target": 1909.8,
+          "diff": 10.2,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Ordinal",
+          "value": 30,
+          "hz": 3840.0,
+          "target": 3851.4,
+          "diff": 11.4,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Simple",
+          "value": 21,
+          "hz": 336.0,
+          "target": 350.1,
+          "diff": 14.1,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Simple",
+          "value": 21,
+          "hz": 672.0,
+          "target": 668.4,
+          "diff": 3.6,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Jewish (English)",
+          "value": 84,
+          "hz": 336.0,
+          "target": 350.1,
+          "diff": 14.1,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Jewish (English)",
+          "value": 84,
+          "hz": 672.0,
+          "target": 668.4,
+          "diff": 3.6,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Sumerian",
+          "value": 180,
+          "hz": 360.0,
+          "target": 350.1,
+          "diff": 9.9,
+          "scaled": true
+        },
+        {
+          "method": "vowel_formant",
+          "value": 2500,
+          "hz": 2500,
+          "target": 2514.6,
+          "diff": 14.6,
+          "scaled": false
+        },
+        {
+          "method": "vowel_formant",
+          "value": 2500,
+          "hz": 2500,
+          "target": 2514.6,
+          "diff": 14.6,
+          "scaled": false
+        }
+      ]
+    },
+    {
+      "word": "joy",
+      "gematria": {
+        "English Ordinal": 50,
+        "English Simple": 14,
+        "English Reverse": 31,
+        "Jewish (English)": 770,
+        "Sumerian": 300
+      },
+      "formants": [
+        570,
+        840,
+        2410
+      ],
+      "alignments": [
+        {
+          "method": "gematria_English Ordinal",
+          "value": 50,
+          "hz": 1600.0,
+          "target": 1591.5,
+          "diff": 8.5,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Ordinal",
+          "value": 50,
+          "hz": 3200.0,
+          "target": 3214.8,
+          "diff": 14.8,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Reverse",
+          "value": 31,
+          "hz": 992.0,
+          "target": 986.7,
+          "diff": 5.3,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Sumerian",
+          "value": 300,
+          "hz": 300.0,
+          "target": 286.5,
+          "diff": 13.5,
+          "scaled": false
+        },
+        {
+          "method": "gematria_Sumerian",
+          "value": 300,
+          "hz": 600.0,
+          "target": 604.8,
+          "diff": 4.8,
+          "scaled": true
+        }
+      ]
+    },
+    {
+      "word": "hope",
+      "gematria": {
+        "English Ordinal": 44,
+        "English Simple": 26,
+        "English Reverse": 64,
+        "Jewish (English)": 143,
+        "Sumerian": 264
+      },
+      "formants": [
+        570,
+        840,
+        2410,
+        530,
+        1850,
+        2500
+      ],
+      "alignments": [
+        {
+          "method": "gematria_English Ordinal",
+          "value": 44,
+          "hz": 352.0,
+          "target": 350.1,
+          "diff": 1.9,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Jewish (English)",
+          "value": 143,
+          "hz": 286.0,
+          "target": 286.5,
+          "diff": 0.5,
+          "scaled": true
+        },
+        {
+          "method": "vowel_formant",
+          "value": 2500,
+          "hz": 2500,
+          "target": 2514.6,
+          "diff": 14.6,
+          "scaled": false
+        }
+      ]
+    },
+    {
+      "word": "heal",
+      "gematria": {
+        "English Ordinal": 26,
+        "English Simple": 17,
+        "English Reverse": 82,
+        "Jewish (English)": 44,
+        "Sumerian": 156
+      },
+      "formants": [
+        530,
+        1850,
+        2500,
+        730,
+        1090,
+        2440
+      ],
+      "alignments": [
+        {
+          "method": "gematria_English Simple",
+          "value": 17,
+          "hz": 272.0,
+          "target": 286.5,
+          "diff": 14.5,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Reverse",
+          "value": 82,
+          "hz": 328.0,
+          "target": 318.3,
+          "diff": 9.7,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Reverse",
+          "value": 82,
+          "hz": 656.0,
+          "target": 668.4,
+          "diff": 12.4,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Reverse",
+          "value": 82,
+          "hz": 1312.0,
+          "target": 1305.0,
+          "diff": 7.0,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Jewish (English)",
+          "value": 44,
+          "hz": 352.0,
+          "target": 350.1,
+          "diff": 1.9,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Sumerian",
+          "value": 156,
+          "hz": 312.0,
+          "target": 318.3,
+          "diff": 6.3,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Sumerian",
+          "value": 156,
+          "hz": 624.0,
+          "target": 636.6,
+          "diff": 12.6,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Sumerian",
+          "value": 156,
+          "hz": 1248.0,
+          "target": 1241.4,
+          "diff": 6.6,
+          "scaled": true
+        },
+        {
+          "method": "vowel_formant",
+          "value": 2500,
+          "hz": 2500,
+          "target": 2514.6,
+          "diff": 14.6,
+          "scaled": false
+        }
+      ]
+    },
+    {
+      "word": "light",
+      "gematria": {
+        "English Ordinal": 56,
+        "English Simple": 29,
+        "English Reverse": 79,
+        "Jewish (English)": 254,
+        "Sumerian": 336
+      },
+      "formants": [
+        270,
+        2290,
+        3010
+      ],
+      "alignments": [
+        {
+          "method": "gematria_English Simple",
+          "value": 29,
+          "hz": 928.0,
+          "target": 923.1,
+          "diff": 4.9,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Reverse",
+          "value": 79,
+          "hz": 316.0,
+          "target": 318.3,
+          "diff": 2.3,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Reverse",
+          "value": 79,
+          "hz": 632.0,
+          "target": 636.6,
+          "diff": 4.6,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Reverse",
+          "value": 79,
+          "hz": 1264.0,
+          "target": 1273.2,
+          "diff": 9.2,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Reverse",
+          "value": 79,
+          "hz": 2528.0,
+          "target": 2514.6,
+          "diff": 13.4,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Sumerian",
+          "value": 336,
+          "hz": 336.0,
+          "target": 350.1,
+          "diff": 14.1,
+          "scaled": false
+        },
+        {
+          "method": "gematria_Sumerian",
+          "value": 336,
+          "hz": 672.0,
+          "target": 668.4,
+          "diff": 3.6,
+          "scaled": true
+        }
+      ]
+    },
+    {
+      "word": "truth",
+      "gematria": {
+        "English Ordinal": 87,
+        "English Simple": 24,
+        "English Reverse": 48,
+        "Jewish (English)": 798,
+        "Sumerian": 522
+      },
+      "formants": [
+        310,
+        870,
+        2240
+      ],
+      "alignments": [
+        {
+          "method": "gematria_English Ordinal",
+          "value": 87,
+          "hz": 348.0,
+          "target": 350.1,
+          "diff": 2.1,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Jewish (English)",
+          "value": 798,
+          "hz": 1596.0,
+          "target": 1591.5,
+          "diff": 4.5,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Jewish (English)",
+          "value": 798,
+          "hz": 3192.0,
+          "target": 3183.0,
+          "diff": 9.0,
+          "scaled": true
+        },
+        {
+          "method": "vowel_formant",
+          "value": 310,
+          "hz": 310,
+          "target": 318.3,
+          "diff": 8.3,
+          "scaled": false
+        },
+        {
+          "method": "vowel_formant",
+          "value": 2240,
+          "hz": 2240,
+          "target": 2228.1,
+          "diff": 11.9,
+          "scaled": false
+        }
+      ]
+    },
+    {
+      "word": "grace",
+      "gematria": {
+        "English Ordinal": 34,
+        "English Simple": 25,
+        "English Reverse": 101,
+        "Jewish (English)": 106,
+        "Sumerian": 204
+      },
+      "formants": [
+        730,
+        1090,
+        2440,
+        530,
+        1850,
+        2500
+      ],
+      "alignments": [
+        {
+          "method": "gematria_English Ordinal",
+          "value": 34,
+          "hz": 272.0,
+          "target": 286.5,
+          "diff": 14.5,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Simple",
+          "value": 25,
+          "hz": 1600.0,
+          "target": 1591.5,
+          "diff": 8.5,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Simple",
+          "value": 25,
+          "hz": 3200.0,
+          "target": 3214.8,
+          "diff": 14.8,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Reverse",
+          "value": 101,
+          "hz": 1616.0,
+          "target": 1623.3,
+          "diff": 7.3,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Sumerian",
+          "value": 204,
+          "hz": 1632.0,
+          "target": 1623.3,
+          "diff": 8.7,
+          "scaled": true
+        },
+        {
+          "method": "vowel_formant",
+          "value": 2500,
+          "hz": 2500,
+          "target": 2514.6,
+          "diff": 14.6,
+          "scaled": false
+        }
+      ]
+    },
+    {
+      "word": "faith",
+      "gematria": {
+        "English Ordinal": 44,
+        "English Simple": 26,
+        "English Reverse": 91,
+        "Jewish (English)": 224,
+        "Sumerian": 264
+      },
+      "formants": [
+        730,
+        1090,
+        2440,
+        270,
+        2290,
+        3010
+      ],
+      "alignments": [
+        {
+          "method": "gematria_English Ordinal",
+          "value": 44,
+          "hz": 352.0,
+          "target": 350.1,
+          "diff": 1.9,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Reverse",
+          "value": 91,
+          "hz": 364.0,
+          "target": 350.1,
+          "diff": 13.9,
+          "scaled": true
+        }
+      ]
+    },
+    {
+      "word": "calm",
+      "gematria": {
+        "English Ordinal": 29,
+        "English Simple": 11,
+        "English Reverse": 79,
+        "Jewish (English)": 74,
+        "Sumerian": 174
+      },
+      "formants": [
+        730,
+        1090,
+        2440
+      ],
+      "alignments": [
+        {
+          "method": "gematria_English Ordinal",
+          "value": 29,
+          "hz": 928.0,
+          "target": 923.1,
+          "diff": 4.9,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Simple",
+          "value": 11,
+          "hz": 352.0,
+          "target": 350.1,
+          "diff": 1.9,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Reverse",
+          "value": 79,
+          "hz": 316.0,
+          "target": 318.3,
+          "diff": 2.3,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Reverse",
+          "value": 79,
+          "hz": 632.0,
+          "target": 636.6,
+          "diff": 4.6,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Reverse",
+          "value": 79,
+          "hz": 1264.0,
+          "target": 1273.2,
+          "diff": 9.2,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Reverse",
+          "value": 79,
+          "hz": 2528.0,
+          "target": 2514.6,
+          "diff": 13.4,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Jewish (English)",
+          "value": 74,
+          "hz": 296.0,
+          "target": 286.5,
+          "diff": 9.5,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Jewish (English)",
+          "value": 74,
+          "hz": 592.0,
+          "target": 604.8,
+          "diff": 12.8,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Sumerian",
+          "value": 174,
+          "hz": 348.0,
+          "target": 350.1,
+          "diff": 2.1,
+          "scaled": true
+        }
+      ]
+    },
+    {
+      "word": "bless",
+      "gematria": {
+        "English Ordinal": 57,
+        "English Simple": 12,
+        "English Reverse": 78,
+        "Jewish (English)": 237,
+        "Sumerian": 342
+      },
+      "formants": [
+        530,
+        1850,
+        2500
+      ],
+      "alignments": [
+        {
+          "method": "gematria_English Ordinal",
+          "value": 57,
+          "hz": 912.0,
+          "target": 923.1,
+          "diff": 11.1,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Reverse",
+          "value": 78,
+          "hz": 312.0,
+          "target": 318.3,
+          "diff": 6.3,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Reverse",
+          "value": 78,
+          "hz": 624.0,
+          "target": 636.6,
+          "diff": 12.6,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Reverse",
+          "value": 78,
+          "hz": 1248.0,
+          "target": 1241.4,
+          "diff": 6.6,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Jewish (English)",
+          "value": 237,
+          "hz": 948.0,
+          "target": 954.9,
+          "diff": 6.9,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Jewish (English)",
+          "value": 237,
+          "hz": 1896.0,
+          "target": 1909.8,
+          "diff": 13.8,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Jewish (English)",
+          "value": 237,
+          "hz": 3792.0,
+          "target": 3787.8,
+          "diff": 4.2,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Sumerian",
+          "value": 342,
+          "hz": 342.0,
+          "target": 350.1,
+          "diff": 8.1,
+          "scaled": false
+        },
+        {
+          "method": "vowel_formant",
+          "value": 2500,
+          "hz": 2500,
+          "target": 2514.6,
+          "diff": 14.6,
+          "scaled": false
+        }
+      ]
+    },
+    {
+      "word": "harmony",
+      "gematria": {
+        "English Ordinal": 94,
+        "English Simple": 40,
+        "English Reverse": 95,
+        "Jewish (English)": 949,
+        "Sumerian": 564
+      },
+      "formants": [
+        730,
+        1090,
+        2440,
+        570,
+        840,
+        2410
+      ],
+      "alignments": [
+        {
+          "method": "gematria_English Simple",
+          "value": 40,
+          "hz": 320.0,
+          "target": 318.3,
+          "diff": 1.7,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Simple",
+          "value": 40,
+          "hz": 640.0,
+          "target": 636.6,
+          "diff": 3.4,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Simple",
+          "value": 40,
+          "hz": 1280.0,
+          "target": 1273.2,
+          "diff": 6.8,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Simple",
+          "value": 40,
+          "hz": 2560.0,
+          "target": 2546.4,
+          "diff": 13.6,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Jewish (English)",
+          "value": 949,
+          "hz": 949.0,
+          "target": 954.9,
+          "diff": 5.9,
+          "scaled": false
+        },
+        {
+          "method": "gematria_Jewish (English)",
+          "value": 949,
+          "hz": 1898.0,
+          "target": 1909.8,
+          "diff": 11.8,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Jewish (English)",
+          "value": 949,
+          "hz": 3796.0,
+          "target": 3787.8,
+          "diff": 8.2,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Sumerian",
+          "value": 564,
+          "hz": 282.0,
+          "target": 286.5,
+          "diff": 4.5,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Sumerian",
+          "value": 564,
+          "hz": 2256.0,
+          "target": 2259.9,
+          "diff": 3.9,
+          "scaled": true
+        }
+      ]
+    }
+  ],
+  "negative": [
+    {
+      "word": "hate",
+      "gematria": {
+        "English Ordinal": 34,
+        "English Simple": 16,
+        "English Reverse": 74,
+        "Jewish (English)": 214,
+        "Sumerian": 204
+      },
+      "formants": [
+        730,
+        1090,
+        2440,
+        530,
+        1850,
+        2500
+      ],
+      "alignments": [
+        {
+          "method": "gematria_English Ordinal",
+          "value": 34,
+          "hz": 272.0,
+          "target": 286.5,
+          "diff": 14.5,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Reverse",
+          "value": 74,
+          "hz": 296.0,
+          "target": 286.5,
+          "diff": 9.5,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Reverse",
+          "value": 74,
+          "hz": 592.0,
+          "target": 604.8,
+          "diff": 12.8,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Sumerian",
+          "value": 204,
+          "hz": 1632.0,
+          "target": 1623.3,
+          "diff": 8.7,
+          "scaled": true
+        },
+        {
+          "method": "vowel_formant",
+          "value": 2500,
+          "hz": 2500,
+          "target": 2514.6,
+          "diff": 14.6,
+          "scaled": false
+        }
+      ]
+    },
+    {
+      "word": "fear",
+      "gematria": {
+        "English Ordinal": 30,
+        "English Simple": 21,
+        "English Reverse": 78,
+        "Jewish (English)": 102,
+        "Sumerian": 180
+      },
+      "formants": [
+        530,
+        1850,
+        2500,
+        730,
+        1090,
+        2440
+      ],
+      "alignments": [
+        {
+          "method": "gematria_English Ordinal",
+          "value": 30,
+          "hz": 960.0,
+          "target": 954.9,
+          "diff": 5.1,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Ordinal",
+          "value": 30,
+          "hz": 1920.0,
+          "target": 1909.8,
+          "diff": 10.2,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Ordinal",
+          "value": 30,
+          "hz": 3840.0,
+          "target": 3851.4,
+          "diff": 11.4,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Simple",
+          "value": 21,
+          "hz": 336.0,
+          "target": 350.1,
+          "diff": 14.1,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Simple",
+          "value": 21,
+          "hz": 672.0,
+          "target": 668.4,
+          "diff": 3.6,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Reverse",
+          "value": 78,
+          "hz": 312.0,
+          "target": 318.3,
+          "diff": 6.3,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Reverse",
+          "value": 78,
+          "hz": 624.0,
+          "target": 636.6,
+          "diff": 12.6,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Reverse",
+          "value": 78,
+          "hz": 1248.0,
+          "target": 1241.4,
+          "diff": 6.6,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Jewish (English)",
+          "value": 102,
+          "hz": 1632.0,
+          "target": 1623.3,
+          "diff": 8.7,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Sumerian",
+          "value": 180,
+          "hz": 360.0,
+          "target": 350.1,
+          "diff": 9.9,
+          "scaled": true
+        },
+        {
+          "method": "vowel_formant",
+          "value": 2500,
+          "hz": 2500,
+          "target": 2514.6,
+          "diff": 14.6,
+          "scaled": false
+        }
+      ]
+    },
+    {
+      "word": "pain",
+      "gematria": {
+        "English Ordinal": 40,
+        "English Simple": 22,
+        "English Reverse": 68,
+        "Jewish (English)": 130,
+        "Sumerian": 240
+      },
+      "formants": [
+        730,
+        1090,
+        2440,
+        270,
+        2290,
+        3010
+      ],
+      "alignments": [
+        {
+          "method": "gematria_English Ordinal",
+          "value": 40,
+          "hz": 320.0,
+          "target": 318.3,
+          "diff": 1.7,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Ordinal",
+          "value": 40,
+          "hz": 640.0,
+          "target": 636.6,
+          "diff": 3.4,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Ordinal",
+          "value": 40,
+          "hz": 1280.0,
+          "target": 1273.2,
+          "diff": 6.8,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Ordinal",
+          "value": 40,
+          "hz": 2560.0,
+          "target": 2546.4,
+          "diff": 13.6,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Simple",
+          "value": 22,
+          "hz": 352.0,
+          "target": 350.1,
+          "diff": 1.9,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Reverse",
+          "value": 68,
+          "hz": 272.0,
+          "target": 286.5,
+          "diff": 14.5,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Sumerian",
+          "value": 240,
+          "hz": 960.0,
+          "target": 954.9,
+          "diff": 5.1,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Sumerian",
+          "value": 240,
+          "hz": 1920.0,
+          "target": 1909.8,
+          "diff": 10.2,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Sumerian",
+          "value": 240,
+          "hz": 3840.0,
+          "target": 3851.4,
+          "diff": 11.4,
+          "scaled": true
+        }
+      ]
+    },
+    {
+      "word": "death",
+      "gematria": {
+        "English Ordinal": 38,
+        "English Simple": 20,
+        "English Reverse": 97,
+        "Jewish (English)": 218,
+        "Sumerian": 228
+      },
+      "formants": [
+        530,
+        1850,
+        2500,
+        730,
+        1090,
+        2440
+      ],
+      "alignments": [
+        {
+          "method": "gematria_English Ordinal",
+          "value": 38,
+          "hz": 304.0,
+          "target": 318.3,
+          "diff": 14.3,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Ordinal",
+          "value": 38,
+          "hz": 608.0,
+          "target": 604.8,
+          "diff": 3.2,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Simple",
+          "value": 20,
+          "hz": 320.0,
+          "target": 318.3,
+          "diff": 1.7,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Simple",
+          "value": 20,
+          "hz": 640.0,
+          "target": 636.6,
+          "diff": 3.4,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Simple",
+          "value": 20,
+          "hz": 1280.0,
+          "target": 1273.2,
+          "diff": 6.8,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Simple",
+          "value": 20,
+          "hz": 2560.0,
+          "target": 2546.4,
+          "diff": 13.6,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Reverse",
+          "value": 97,
+          "hz": 1552.0,
+          "target": 1559.7,
+          "diff": 7.7,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Jewish (English)",
+          "value": 218,
+          "hz": 3488.0,
+          "target": 3501.3,
+          "diff": 13.3,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Sumerian",
+          "value": 228,
+          "hz": 912.0,
+          "target": 923.1,
+          "diff": 11.1,
+          "scaled": true
+        },
+        {
+          "method": "vowel_formant",
+          "value": 2500,
+          "hz": 2500,
+          "target": 2514.6,
+          "diff": 14.6,
+          "scaled": false
+        }
+      ]
+    },
+    {
+      "word": "kill",
+      "gematria": {
+        "English Ordinal": 44,
+        "English Simple": 17,
+        "English Reverse": 64,
+        "Jewish (English)": 89,
+        "Sumerian": 264
+      },
+      "formants": [
+        270,
+        2290,
+        3010
+      ],
+      "alignments": [
+        {
+          "method": "gematria_English Ordinal",
+          "value": 44,
+          "hz": 352.0,
+          "target": 350.1,
+          "diff": 1.9,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Simple",
+          "value": 17,
+          "hz": 272.0,
+          "target": 286.5,
+          "diff": 14.5,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Jewish (English)",
+          "value": 89,
+          "hz": 356.0,
+          "target": 350.1,
+          "diff": 5.9,
+          "scaled": true
+        }
+      ]
+    },
+    {
+      "word": "war",
+      "gematria": {
+        "English Ordinal": 42,
+        "English Simple": 15,
+        "English Reverse": 39,
+        "Jewish (English)": 591,
+        "Sumerian": 252
+      },
+      "formants": [
+        730,
+        1090,
+        2440
+      ],
+      "alignments": [
+        {
+          "method": "gematria_English Ordinal",
+          "value": 42,
+          "hz": 336.0,
+          "target": 350.1,
+          "diff": 14.1,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Ordinal",
+          "value": 42,
+          "hz": 672.0,
+          "target": 668.4,
+          "diff": 3.6,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Simple",
+          "value": 15,
+          "hz": 960.0,
+          "target": 954.9,
+          "diff": 5.1,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Simple",
+          "value": 15,
+          "hz": 1920.0,
+          "target": 1909.8,
+          "diff": 10.2,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Simple",
+          "value": 15,
+          "hz": 3840.0,
+          "target": 3851.4,
+          "diff": 11.4,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Reverse",
+          "value": 39,
+          "hz": 312.0,
+          "target": 318.3,
+          "diff": 6.3,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Reverse",
+          "value": 39,
+          "hz": 624.0,
+          "target": 636.6,
+          "diff": 12.6,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Reverse",
+          "value": 39,
+          "hz": 1248.0,
+          "target": 1241.4,
+          "diff": 6.6,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Jewish (English)",
+          "value": 591,
+          "hz": 295.5,
+          "target": 286.5,
+          "diff": 9.0,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Jewish (English)",
+          "value": 591,
+          "hz": 591.0,
+          "target": 604.8,
+          "diff": 13.8,
+          "scaled": false
+        }
+      ]
+    },
+    {
+      "word": "evil",
+      "gematria": {
+        "English Ordinal": 48,
+        "English Simple": 21,
+        "English Reverse": 60,
+        "Jewish (English)": 444,
+        "Sumerian": 288
+      },
+      "formants": [
+        530,
+        1850,
+        2500,
+        270,
+        2290,
+        3010
+      ],
+      "alignments": [
+        {
+          "method": "gematria_English Simple",
+          "value": 21,
+          "hz": 336.0,
+          "target": 350.1,
+          "diff": 14.1,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Simple",
+          "value": 21,
+          "hz": 672.0,
+          "target": 668.4,
+          "diff": 3.6,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Reverse",
+          "value": 60,
+          "hz": 960.0,
+          "target": 954.9,
+          "diff": 5.1,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Reverse",
+          "value": 60,
+          "hz": 1920.0,
+          "target": 1909.8,
+          "diff": 10.2,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Reverse",
+          "value": 60,
+          "hz": 3840.0,
+          "target": 3851.4,
+          "diff": 11.4,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Sumerian",
+          "value": 288,
+          "hz": 288.0,
+          "target": 286.5,
+          "diff": 1.5,
+          "scaled": false
+        },
+        {
+          "method": "vowel_formant",
+          "value": 2500,
+          "hz": 2500,
+          "target": 2514.6,
+          "diff": 14.6,
+          "scaled": false
+        }
+      ]
+    },
+    {
+      "word": "curse",
+      "gematria": {
+        "English Ordinal": 66,
+        "English Simple": 21,
+        "English Reverse": 69,
+        "Jewish (English)": 498,
+        "Sumerian": 396
+      },
+      "formants": [
+        310,
+        870,
+        2240,
+        530,
+        1850,
+        2500
+      ],
+      "alignments": [
+        {
+          "method": "gematria_English Simple",
+          "value": 21,
+          "hz": 336.0,
+          "target": 350.1,
+          "diff": 14.1,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Simple",
+          "value": 21,
+          "hz": 672.0,
+          "target": 668.4,
+          "diff": 3.6,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Reverse",
+          "value": 69,
+          "hz": 276.0,
+          "target": 286.5,
+          "diff": 10.5,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Reverse",
+          "value": 69,
+          "hz": 2208.0,
+          "target": 2196.3,
+          "diff": 11.7,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Jewish (English)",
+          "value": 498,
+          "hz": 996.0,
+          "target": 986.7,
+          "diff": 9.3,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Sumerian",
+          "value": 396,
+          "hz": 1584.0,
+          "target": 1591.5,
+          "diff": 7.5,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Sumerian",
+          "value": 396,
+          "hz": 3168.0,
+          "target": 3183.0,
+          "diff": 15.0,
+          "scaled": true
+        },
+        {
+          "method": "vowel_formant",
+          "value": 310,
+          "hz": 310,
+          "target": 318.3,
+          "diff": 8.3,
+          "scaled": false
+        },
+        {
+          "method": "vowel_formant",
+          "value": 2240,
+          "hz": 2240,
+          "target": 2228.1,
+          "diff": 11.9,
+          "scaled": false
+        },
+        {
+          "method": "vowel_formant",
+          "value": 2500,
+          "hz": 2500,
+          "target": 2514.6,
+          "diff": 14.6,
+          "scaled": false
+        }
+      ]
+    },
+    {
+      "word": "dark",
+      "gematria": {
+        "English Ordinal": 34,
+        "English Simple": 16,
+        "English Reverse": 74,
+        "Jewish (English)": 115,
+        "Sumerian": 204
+      },
+      "formants": [
+        730,
+        1090,
+        2440
+      ],
+      "alignments": [
+        {
+          "method": "gematria_English Ordinal",
+          "value": 34,
+          "hz": 272.0,
+          "target": 286.5,
+          "diff": 14.5,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Reverse",
+          "value": 74,
+          "hz": 296.0,
+          "target": 286.5,
+          "diff": 9.5,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Reverse",
+          "value": 74,
+          "hz": 592.0,
+          "target": 604.8,
+          "diff": 12.8,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Jewish (English)",
+          "value": 115,
+          "hz": 920.0,
+          "target": 923.1,
+          "diff": 3.1,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Sumerian",
+          "value": 204,
+          "hz": 1632.0,
+          "target": 1623.3,
+          "diff": 8.7,
+          "scaled": true
+        }
+      ]
+    },
+    {
+      "word": "poison",
+      "gematria": {
+        "English Ordinal": 88,
+        "English Simple": 34,
+        "English Reverse": 74,
+        "Jewish (English)": 349,
+        "Sumerian": 528
+      },
+      "formants": [
+        570,
+        840,
+        2410,
+        270,
+        2290,
+        3010,
+        570,
+        840,
+        2410
+      ],
+      "alignments": [
+        {
+          "method": "gematria_English Ordinal",
+          "value": 88,
+          "hz": 352.0,
+          "target": 350.1,
+          "diff": 1.9,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Simple",
+          "value": 34,
+          "hz": 272.0,
+          "target": 286.5,
+          "diff": 14.5,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Reverse",
+          "value": 74,
+          "hz": 296.0,
+          "target": 286.5,
+          "diff": 9.5,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Reverse",
+          "value": 74,
+          "hz": 592.0,
+          "target": 604.8,
+          "diff": 12.8,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Jewish (English)",
+          "value": 349,
+          "hz": 349.0,
+          "target": 350.1,
+          "diff": 1.1,
+          "scaled": false
+        }
+      ]
+    },
+    {
+      "word": "sick",
+      "gematria": {
+        "English Ordinal": 42,
+        "English Simple": 15,
+        "English Reverse": 66,
+        "Jewish (English)": 132,
+        "Sumerian": 252
+      },
+      "formants": [
+        270,
+        2290,
+        3010
+      ],
+      "alignments": [
+        {
+          "method": "gematria_English Ordinal",
+          "value": 42,
+          "hz": 336.0,
+          "target": 350.1,
+          "diff": 14.1,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Ordinal",
+          "value": 42,
+          "hz": 672.0,
+          "target": 668.4,
+          "diff": 3.6,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Simple",
+          "value": 15,
+          "hz": 960.0,
+          "target": 954.9,
+          "diff": 5.1,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Simple",
+          "value": 15,
+          "hz": 1920.0,
+          "target": 1909.8,
+          "diff": 10.2,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Simple",
+          "value": 15,
+          "hz": 3840.0,
+          "target": 3851.4,
+          "diff": 11.4,
+          "scaled": true
+        }
+      ]
+    },
+    {
+      "word": "broken",
+      "gematria": {
+        "English Ordinal": 65,
+        "English Simple": 29,
+        "English Reverse": 97,
+        "Jewish (English)": 227,
+        "Sumerian": 390
+      },
+      "formants": [
+        570,
+        840,
+        2410,
+        530,
+        1850,
+        2500
+      ],
+      "alignments": [
+        {
+          "method": "gematria_English Simple",
+          "value": 29,
+          "hz": 928.0,
+          "target": 923.1,
+          "diff": 4.9,
+          "scaled": true
+        },
+        {
+          "method": "gematria_English Reverse",
+          "value": 97,
+          "hz": 1552.0,
+          "target": 1559.7,
+          "diff": 7.7,
+          "scaled": true
+        },
+        {
+          "method": "gematria_Sumerian",
+          "value": 390,
+          "hz": 1560.0,
+          "target": 1559.7,
+          "diff": 0.3,
+          "scaled": true
+        },
+        {
+          "method": "vowel_formant",
+          "value": 2500,
+          "hz": 2500,
+          "target": 2514.6,
+          "diff": 14.6,
+          "scaled": false
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "positive_words": 12,
+    "positive_with_alignments": 12,
+    "positive_total_alignments": 83,
+    "negative_words": 12,
+    "negative_with_alignments": 12,
+    "negative_total_alignments": 84
+  }
+}
